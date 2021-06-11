@@ -1,9 +1,14 @@
-* { 
-    padding: 0; 
-    margin; 0; 
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+/* --------------------- this are temporary styles for html remove when your done!---------------------------- */
+* {
+    padding: 1rem; 
+    border: 2px solid rgb(210,210,210);
 }
+
+body { border: none; }
+html { border: none; }
