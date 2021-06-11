@@ -6,9 +6,26 @@
 
 /* --------------------- this are temporary styles for html remove when your done!---------------------------- */
 * {
-    padding: 1rem; 
+    padding: 0.5rem; 
     border: 2px solid rgb(210,210,210);
 }
 
 body { border: none; }
 html { border: none; }
+
+
+/* ------------------------------ universal styles and utility classes ---------------------------------------------------------- */
+
+.bg-image {
+    background-image: url('/images/the-sleep-co\ \(3\).jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+.padded { padding: 5%; }
+.padded-sm { padding: 1%; }
+
+.bg-dark {
+    background-color: #1f1e1c;
+    color: #fcfcfa;
+}
