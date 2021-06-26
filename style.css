@@ -34,6 +34,11 @@ body {
     color: #fcfcfa;
 }
 
+.tall-10    { min-height: 10vh }
+.tall-20    { min-height: 20vh }
+.tall-30    { min-height: 30vh }
+.tall-40    { min-height: 40vh }
+.tall-45    { min-height: 45vh }
 .tall-50    { min-height: 50vh }
 .tall-60    { min-height: 60vh }
 .tall-70    { min-height: 70vh }
@@ -54,6 +59,10 @@ h2 { font-size: 2.5rem;
 }
 
 h3 { line-height: 1;}
+
+span {
+    text-transform: uppercase;
+}
 
 p { font-weight: 200;
     line-height: 1.5;
@@ -129,7 +138,7 @@ footer a {
     border: none;
 }
 
-/* -------------------------- bacgground images ----------------------------------------*/
+/* -------------------------- background images ----------------------------------------*/
 
 .bg-bed { background-image: url('/images/the-sleep-co\ \(1\).jpg'); }
 
@@ -144,7 +153,20 @@ footer a {
     background-position: 50% 54%;
 }
 
+.bg-about {
+    background-image: url('/images/the-sleep-co\ \(5\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.bg-call {
+    background-image: url('images/the-sleep-co\ \(6\).jpg');
+    background-position: 50% 61%;
+    display: flex;
+    background-size: cover;
+    
+
+}
 /* ------------------ icon grid ------------------*/
 .far {
     display: block;
